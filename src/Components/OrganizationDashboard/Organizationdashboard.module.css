@@ -1,0 +1,105 @@
+/* styles.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  height: 72px;
+  /* position: fixed; */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+  font-size: larger;
+}
+
+.navItem {
+  margin: 0 10px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #000;
+}
+
+.loginButton {
+  padding: 5px 10px;
+  border: 1px solid #28a745;
+  background-color: transparent;
+  color: #28a745;
+  cursor: pointer;
+}
+.promotionalBanner {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  border-radius: 30px;
+  margin-bottom: 10px;
+  width: 650px;
+  height: 500px;
+  margin: 10%;
+}
+
+.content {
+  max-width: 50%;
+  padding: 20px;
+  margin-top: 10%;
+}
+
+.heading {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.enrollButton {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.experience {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.experienceIcon {
+  margin-right: 10px;
+}

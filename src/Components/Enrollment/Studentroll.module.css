@@ -1,0 +1,128 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(to right, #1a73e8, #38bdf8); */
+  padding: 2rem;
+  /* width: 1000px; */
+}
+
+.card {
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 600px;
+  width: 100%;
+  /* height: 90vh; */
+}
+
+.heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.inputGroup {
+  margin-bottom: 1rem;
+}
+
+.label {
+  display: block;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.3rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.select {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: white;
+}
+
+.checkboxGroup {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.checkbox {
+  transform: scale(1.2);
+}
+
+
+.button {
+  padding: 12px;
+  font-size: 16px;
+  background: linear-gradient(145deg, #00b09b, #96c93d);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  margin: auto;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+  margin-left: 25%;
+}
+.button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.button:hover:not(:disabled) {
+  background: #145bbd;
+}
+
+.link {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #1a73e8;
+}
+
+.link a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
+/* Custom styles for modal */
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header {
+  background-color: #4caf50; /* Green background for success */
+  color: white;
+}
+
+.modal-header.error {
+  background-color: #f44336; /* Red background for error */
+}
+
+.modal-body {
+  font-size: 16px;
+}
+
+.close {
+  color: white;
+}
